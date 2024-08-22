@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+      "name": "Brown Sugar (Icumsa 600 & 1200)",
+      "image": "https://i.ibb.co/h1YbbTw/it1.jpg",
+      "description": "Equal attention has been paid to the physical processes associated with milling sugar cane and refining sugar. Most Brazil sugar mills have efficiency teams whose job it is to streamline and economize all processes in the plant. Recycling is also a high priority, with the sugar cane fiber often burned to power the facility. So efficient are Brazilian mills that they often manage to sell power onto the national grid because the burning of the bagasse (a name given to the fibrous part of the sugar cane discarded after crushing) provides more than enough energy to power the plant."
+    },
+    {
+        "id" : 2,
+      "name": "Mitr Phol Pure Refined Sugar",
+      "image": "https://i.ibb.co/YyZfGmp/it2.png",
+      "description": "Equal attention has been paid to the physical processes associated with milling sugar cane and refining sugar. Most Brazil sugar mills have efficiency teams whose job it is to streamline and economize all processes in the plant. Recycling is also a high priority, with the sugar cane fiber often burned to power the facility. So efficient are Brazilian mills that they often manage to sell power onto the national grid because the burning of the bagasse (a name given to the fibrous part of the sugar cane discarded after crushing) provides more than enough energy to power the plant."
+    },
+    {
+        "id" : 3,
+      "name": "Refined Sugar (Icumsa 100)",
+      "image": "https://i.ibb.co/BnW2YzK/it3.jpg",
+      "description": "Equal attention has been paid to the physical processes associated with milling sugar cane and refining sugar. Most Brazil sugar mills have efficiency teams whose job it is to streamline and economize all processes in the plant. Recycling is also a high priority, with the sugar cane fiber often burned to power the facility. So efficient are Brazilian mills that they often manage to sell power onto the national grid because the burning of the bagasse (a name given to the fibrous part of the sugar cane discarded after crushing) provides more than enough energy to power the plant."
+    },
+    {
+        "id" : 4,
+      "name": "Refined Sugar (Icumsa 150)",
+      "image": "https://i.ibb.co/yY06Pdy/it4.jpg",
+      "description": "Equal attention has been paid to the physical processes associated with milling sugar cane and refining sugar. Most Brazil sugar mills have efficiency teams whose job it is to streamline and economize all processes in the plant. Recycling is also a high priority, with the sugar cane fiber often burned to power the facility. So efficient are Brazilian mills that they often manage to sell power onto the national grid because the burning of the bagasse (a name given to the fibrous part of the sugar cane discarded after crushing) provides more than enough energy to power the plant."
+    },
+    {
+        "id" : 5,
+      "name": "Refined Sugar (Icumsa 45)",
+      "image": "https://i.ibb.co/vQyS3S6/it5.png",
+      "description": "Equal attention has been paid to the physical processes associated with milling sugar cane and refining sugar. Most Brazil sugar mills have efficiency teams whose job it is to streamline and economize all processes in the plant. Recycling is also a high priority, with the sugar cane fiber often burned to power the facility. So efficient are Brazilian mills that they often manage to sell power onto the national grid because the burning of the bagasse (a name given to the fibrous part of the sugar cane discarded after crushing) provides more than enough energy to power the plant."
+    },
+    {
+        "id" : 6,
+      "name": "Renuka",
+      "image": "https://i.ibb.co/kQ34LcT/it6.jpg",
+      "description": "Equal attention has been paid to the physical processes associated with milling sugar cane and refining sugar. Most Brazil sugar mills have efficiency teams whose job it is to streamline and economize all processes in the plant. Recycling is also a high priority, with the sugar cane fiber often burned to power the facility. So efficient are Brazilian mills that they often manage to sell power onto the national grid because the burning of the bagasse (a name given to the fibrous part of the sugar cane discarded after crushing) provides more than enough energy to power the plant."
+    }
+]

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     
     return (
-        <div className="navbar bg-base-100 px-5 md:px-28">
+        <div className="navbar bg-base-100 px-5 md:px-28 relative z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,22 +43,22 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg font-semibold text-orange-400">
-                <li><a>Home</a></li>
+                <li><Link to="/"><a>Home</a></Link></li>
                 <li>
                     <details>
                     <summary>Products</summary>
                     <ul className="p-2 w-72">
-                        <li><a>Refined Sugar (lcumsa 45)</a></li>
-                        <li><a>Refined Sugar (lcumsa 100)</a></li>
-                        <li><a>Refined Sugar (lcumsa 150)</a></li>
-                        <li><a>Brown Sugar (lcumsa 600 & 1200)</a></li>
-                        <li><a>Mitr Phol Pure Refined Sugar</a></li>
-                        <li><a>Renuka</a></li>
+                        <Link  to={`/item/5`}><li><a>Refined Sugar (lcumsa 45)</a></li></Link>
+                        <Link  to={`/item/3`}><li><a>Refined Sugar (lcumsa 100)</a></li></Link>
+                        <Link  to={`/item/4`}><li><a>Refined Sugar (lcumsa 150)</a></li></Link>
+                        <Link  to={`/item/1`}><li><a>Brown Sugar (lcumsa 600 & 1200)</a></li></Link>
+                        <Link  to={`/item/2`}><li><a>Mitr Phol Pure Refined Sugar</a></li></Link>
+                        <Link  to={`/item/6`}><li><a>Renuka</a></li></Link>
                     </ul>
                     </details>
                 </li>
-                <li><a>Contact Us</a></li>
-                <li><a>About Us</a></li>
+                <li><Link to="/contact"><a>Contact Us</a></Link></li>
+                <li><Link to="/about"><a>About Us</a></Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
