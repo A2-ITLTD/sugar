@@ -16,11 +16,13 @@ const Banner = () => {
             {/* main banner */}
             <section className="relative w-full h-[700px]">
             <img src={bg1} className='w-full h-full object-cover object-left md:object-center' />
-            <div className='absolute right-28 bottom-20 md:right-28 md:bottom-36 text-white flex flex-col gap-10'>
+            <div className='absolute right-0 bottom-40 md:right-28 md:bottom-36 text-white flex flex-col gap-10'>
                 <div className='bg-white text-orange-400 rounded-lg'>
                     <h1 className='text-xl md:text-5xl font-bold p-5'>We offer premium-quality <br /> white and brown sugar. <br /> Guaranteed to be 100% pure.</h1>
                     <div className="divider"><FaRegCircleDot className='text-6xl' /></div>
-                    <button className='w-full text-orange-400 font-bold text-3xl py-8 hover:text-black'>Shop Now</button>
+                    <button className='w-full text-orange-400 font-bold text-3xl py-8 hover:text-black'>
+                       <Link to="/allproducts">Shop Now</Link>
+                    </button>
                 </div>
             </div>
             </section>
@@ -58,7 +60,7 @@ const Banner = () => {
                     </div>
                     </div>
                 </div>
-                <div className='bg-orange-400 rounded-md p-12 flex flex-col gap-5'>
+                <div className='bg-orange-400 rounded-md p-4 md:p-12 flex flex-col gap-5'>
                     <h1 className='text-3xl font-bold text-white text-wrap pb-5'>Our primary project</h1>
                     <p className='text-base font-normal text-white text-justify text-wrap'>
                     Our commitment to quality is evident in every step of our production process. We work closely with ethical and sustainable suppliers to ensure that every granule of sugar you purchase from us is 100% pure, free from additives, and meticulously processed to retain its natural sweetness and color. Whether you're a home baker, a professional chef, or simply someone who appreciates the finer things in life, our sugar products are crafted to enhance your culinary creations with the perfect touch of sweetness.
@@ -73,7 +75,7 @@ const Banner = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center'>
                     {/* 1 */}
-                    <Link to={`/item/1`} className="card card-compact bg-base-100 w-96 shadow-xl">
+                    <Link to={`/item/1`} className="card card-compact bg-base-100 w-auto md:w-96 shadow-xl">
                         <figure className='w-full h-60'>
                             <img
                             src={i1}
@@ -85,7 +87,7 @@ const Banner = () => {
                         </div>
                     </Link>
                     {/* 2 */}
-                    <Link to={`/item/2`} className="card card-compact bg-base-100 w-96 shadow-xl">
+                    <Link to={`/item/2`} className="card card-compact bg-base-100 w-auto md:w-96 shadow-xl">
                         <figure className='w-full h-60'>
                             <img
                             src={i2}
@@ -97,7 +99,7 @@ const Banner = () => {
                         </div>
                     </Link>
                     {/* 3 */}
-                    <Link to={`/item/3`} className="card card-compact bg-base-100 w-96 shadow-xl">
+                    <Link to={`/item/3`} className="card card-compact bg-base-100 w-auto md:w-96 shadow-xl">
                         <figure className='w-full h-60'>
                             <img
                             src={i3}
@@ -109,7 +111,7 @@ const Banner = () => {
                         </div>
                     </Link>
                     {/* 4 */}
-                    <Link to={`/item/4`} className="card card-compact bg-base-100 w-96 shadow-xl">
+                    <Link to={`/item/4`} className="card card-compact bg-base-100 w-auto md:w-96 shadow-xl">
                         <figure className='w-full h-60'>
                             <img
                             src={i4}
@@ -121,7 +123,7 @@ const Banner = () => {
                         </div>
                     </Link>
                     {/* 5 */}
-                    <Link to={`/item/5`} className="card card-compact bg-base-100 w-96 shadow-xl">
+                    <Link to={`/item/5`} className="card card-compact bg-base-100 w-auto md:w-96 shadow-xl">
                         <figure className='w-full h-60'>
                             <img
                             src={i5}
@@ -133,7 +135,7 @@ const Banner = () => {
                         </div>
                     </Link>
                     {/* 6 */}
-                    <Link to={`/item/6`} className="card card-compact bg-base-100 w-96 shadow-xl">
+                    <Link to={`/item/6`} className="card card-compact bg-base-100 w-auto md:w-96 shadow-xl">
                         <figure className='w-full h-60'>
                             <img
                             src={i6}
@@ -149,7 +151,7 @@ const Banner = () => {
             {/* our speciality */}
             <section className='mt-28 px-5 md:px-28'>
                 <div
-                    className="relative w-full h-[400px] flex items-center justify-center"
+                    className="relative w-full h-auto md:h-[400px] flex items-center justify-center"
                     style={{
                         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg3})`,
                         backgroundSize: 'cover',
@@ -157,10 +159,10 @@ const Banner = () => {
                       }}
                       
                     >
-                    <div className="relative text-center flex flex-col gap-5 items-center px-5 md:px-28 text-white">
-                        <h1 className="text-5xl text-orange-400 font-bold">Our Specialty</h1>
-                        <p className='text-wrap'>We offer a diverse selection of refined sugar for direct food use, including brown sugar (Icumsa 600 & 1200) and fair-trade options. Enjoy the benefits of no broker commission, direct shipments, and no cross-stuffing. For more information and to check availability in your region, please contact your local market representative.</p>
-                        <button className="mt-4 px-6 py-2 w-fit bg-orange-400 text-white rounded-lg">Learn More</button>
+                    <div className="relative text-center flex flex-col gap-5 items-center py-5 px-5 md:px-28 text-white">
+                        <h1 className="text-2xl md:text-5xl text-orange-400 font-bold">Our Specialty</h1>
+                        <p className='text-wrap text-justify md:text-center'>We offer a diverse selection of refined sugar for direct food use, including brown sugar (Icumsa 600 & 1200) and fair-trade options. Enjoy the benefits of no broker commission, direct shipments, and no cross-stuffing. For more information and to check availability in your region, please contact your local market representative.</p>
+                        <Link to="/about" className="mt-4 px-6 py-2 w-fit bg-orange-400 text-white rounded-lg">Learn More</Link>
                     </div>
                 </div>
             </section>

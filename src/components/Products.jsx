@@ -32,8 +32,8 @@ const Products = () => {
     }
 
     return (
-        <div className="mt-16 px-5 md:px-28">
-            <div className='flex flex-col md:flex-row justify-center items-top gap-14 p-10'>
+        <div className="mt-5 md:mt-16 px-5 md:px-28">
+            <div className='flex flex-col md:flex-row justify-center items-top gap-5 md:gap-14 p-2 md:p-10'>
                 <div className='w-full md:w-1/2'>
                     <div className='flex flex-col gap-10 text-left'>
                         <h1 className='text-4xl font-bold text-[#045364] text-wrap'>{newItem.name}</h1>

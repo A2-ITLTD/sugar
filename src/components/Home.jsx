@@ -3,7 +3,7 @@ import Banner from "./Banner";
 
 const Home = () => {
     useEffect(() => {
-        document.title = "Home";
+        document.title = "Sugar Factory";
     }, []);
     return (
         <div>

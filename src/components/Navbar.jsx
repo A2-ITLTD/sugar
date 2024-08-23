@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import logo from '../Images/logo-removebg.png';
 const Navbar = () => {
     
     return (
@@ -25,28 +25,30 @@ const Navbar = () => {
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-semibold text-orange-400">
                     <Link to="/"><a>Home</a></Link>
                     <li>
-                    <a>Products</a>
+                    <a><Link to="/allproducts">Products</Link></a>
                     <ul className="p-2">
-                        <li><a>Refined Sugar (lcumsa 45)</a></li>
-                        <li><a>Refined Sugar (lcumsa 100)</a></li>
-                        <li><a>Refined Sugar (lcumsa 150)</a></li>
-                        <li><a>Brown Sugar (lcumsa 600 & 1200)</a></li>
-                        <li><a>Mitr Phol Pure Refined Sugar</a></li>
-                        <li><a>Renuka</a></li>
+                        <Link  to={`/item/5`}><li><a>Refined Sugar (lcumsa 45)</a></li></Link>
+                        <Link  to={`/item/3`}><li><a>Refined Sugar (lcumsa 100)</a></li></Link>
+                        <Link  to={`/item/4`}><li><a>Refined Sugar (lcumsa 150)</a></li></Link>
+                        <Link  to={`/item/1`}><li><a>Brown Sugar (lcumsa 600 & 1200)</a></li></Link>
+                        <Link  to={`/item/2`}><li><a>Mitr Phol Pure Refined Sugar</a></li></Link>
+                        <Link  to={`/item/6`}><li><a>Renuka</a></li></Link>
                     </ul>
                     </li>
-                    <li><a>Contact Us</a></li>
-                    <li><a>About Us</a></li>
+                    <li><Link to="/contact"><a>Contact Us</a></Link></li>
+                    <li><Link to="/about"><a>About Us</a></Link></li>
                 </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Sugar</a>
+                <Link to="/" className="btn btn-ghost text-xl">
+                    <img src={logo} className="w-full h-full" />
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg font-semibold text-orange-400">
                 <li><Link to="/"><a>Home</a></Link></li>
                 <li>
                     <details>
-                    <summary>Products</summary>
+                    <summary><Link to="/allproducts">Products</Link></summary>
                     <ul className="p-2 w-72">
                         <Link  to={`/item/5`}><li><a>Refined Sugar (lcumsa 45)</a></li></Link>
                         <Link  to={`/item/3`}><li><a>Refined Sugar (lcumsa 100)</a></li></Link>
