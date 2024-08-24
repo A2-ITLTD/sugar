@@ -9,6 +9,8 @@ import i4 from '../Images/it4.jpeg';
 import i5 from '../Images/it5.png';
 import i6 from '../Images/it6.jpg';
 import { FaRegCircleDot } from "react-icons/fa6";
+import orangebg from "../Images/orangebg.jpg";
+import { AiOutlineAlibaba } from "react-icons/ai";
 const Banner = () => {
     
     return (
@@ -25,6 +27,15 @@ const Banner = () => {
                     </button>
                 </div>
             </div>
+            </section>
+            {/* alibab button */}
+            <section className="my-16 relative w-full h-32 rounded-md flex items-center justify-center">
+                <img src={orangebg} className='absolute inset-0 w-full h-full object-cover object-left md:object-center rounded-md' />
+                <div className='relative z-10'>
+                    <Link to="/" className='flex gap-2 items-center bg-white hover:bg-slate-200 text-[#FF6701] text-sm md:text-2xl font-bold py-2 px-3 md:px-8 rounded-md'>
+                    Get In Touch With Alibaba <AiOutlineAlibaba className='text-base md:text-5xl' />
+                    </Link>
+                </div>
             </section>
             {/* About */}
             <section className='mt-28 px-5 md:px-28'>

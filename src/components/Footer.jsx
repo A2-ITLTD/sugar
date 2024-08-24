@@ -41,6 +41,7 @@ const Footer = () => {
             </aside>
             <nav className="md:place-self-center md:justify-self-end">
                 <div className="grid grid-flow-col gap-4">
+                    <img src={alibaba} className='w-10' />
                     <img src={facebook} className='w-10' />
                     <img src={instagram} className='w-10' />
                     <img src={twitter} className='w-10' />
@@ -48,7 +49,6 @@ const Footer = () => {
                     <img src={pinterest} className='w-10' />
                     <img src={linkedin} className='w-10' />
                     <img src={youtube} className='w-10' />
-                    <img src={alibaba} className='w-10' />
                 </div>
             </nav>
             </footer>
