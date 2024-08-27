@@ -160,7 +160,7 @@ const Banner = () => {
                 </div>
             </section>
             {/* our speciality */}
-            <section className='mt-28 px-5 md:px-28'>
+            <section className='my-16 px-5 md:px-28'>
                 <div
                     className="relative w-full h-auto md:h-[400px] flex items-center justify-center"
                     style={{

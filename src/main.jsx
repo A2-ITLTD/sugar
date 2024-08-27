@@ -12,6 +12,11 @@ import Contact from "./components/Contact";
 import Products from "./components/Products";
 import AllProducts from "./components/AllProducts";
 import Policy from "./components/Policy";
+import AuthProvider from "./components/AuthProvider";
+import Login from "./components/Login";
+import Registration from "./components/Registration";
+import NonSuppling from "./components/NonSuppling";
+import SugarForm from "./components/SugarForm";
 
 const router = createBrowserRouter([ 
  { 
@@ -37,7 +42,19 @@ const router = createBrowserRouter([
       path: '/item/:id',
       element: <Products></Products>,
       loader : () => fetch('/item.json'),
-    }
+    },
+    { path: "/login",
+      element: <Login></Login>
+    },
+    { path: "/registration",
+      element: <Registration></Registration>
+    },
+    { path: "/nonsuppling",
+      element: <NonSuppling></NonSuppling>
+    },
+    { path: "/sugarform",
+      element: <SugarForm></SugarForm>
+    },
   
   ]
  }, 
@@ -45,6 +62,8 @@ const router = createBrowserRouter([
  
 ReactDOM.createRoot(document.getElementById("root")).render( 
  <React.StrictMode> 
- <RouterProvider router={router} /> 
+  <AuthProvider>
+    <RouterProvider router={router} /> 
+  </AuthProvider>
  </React.StrictMode> 
 ); 

@@ -10,7 +10,7 @@ import logo from '../Images/logo-removebg.png';
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <div className="w-full mt-16">
+        <div className="w-full">
            <footer className="footer bg-base-200 text-base-content py-10 px-5 md:px-28">
             <nav>
                 <h6 className="footer-title text-[#045364] text-xl">Registration Number</h6>
