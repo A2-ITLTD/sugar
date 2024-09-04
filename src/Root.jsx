@@ -3,9 +3,7 @@ import Navbar from './components/Navbar';
 import './index.css';
 import Footer from './components/Footer';
 import whatsapp from './Images/whatsapp.png';
-import { ToastContainer, toast
-    
- } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Root = () => {
     return (
